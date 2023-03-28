@@ -1,0 +1,151 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.hero-mid {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 100%;
+}
+.hero-mid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 100%;
+}
+.hero-mid h1 {
+    font-weight: 900;
+}
+.heroBtn {
+    width: 160px;
+    height: 48px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: #00c2c5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.hero a {
+    text-decoration: none;
+}
+.hero-text {
+    /* width: 100%; */
+    position: absolute;
+    top: 35%;
+    white-space: pre-line;
+    left: 7%;
+}
+.hero-text h1 {
+    font-size: 3.4rem;
+    font-weight: 900;
+    background-color: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-text p {
+    font-size: 1.2rem;
+    background: #fff;
+    font-weight: 600;
+    margin-top: -12px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.AboutBtn {
+    display: none;
+}
+
+.heroBox {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 98%;
+    transform: translate(-50%);
+    border-radius: 8px;
+    box-shadow: 1px 7px 17px 0px rgba(0,0,0,0.75);
+}
+.heroBox p {
+    font-weight: 500;
+    font-size: 14x;
+}
+.heroBox-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: px;
+    width: 100%;
+}
+.heroBox-col {
+    width: 150px;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 12px;
+}
+.heroBox input {
+    padding: 6px;
+    background-color: #dddddd56;
+    outline-color: grey;
+    border: 1px solid grey;
+    border-radius: 4px;
+    width: 130px;
+}
+.heroBox-btn {
+    width: 160px;
+    height: 50px;
+    background-color: #00c2c5;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.heroBox-btn:hover {
+    background-color: #fff;
+    border: 1px solid #00c2c5;
+    color: black;
+    transform: scale(1.04);
+}
+
+@media screen and (max-width: 555px) {
+        .hero-text h1 {
+            margin-top: -20px;
+        }
+        .hero-text p {
+            font-size: 1.1rem;
+        }
+        .heroBtn {
+            width: 120px;
+            height: 44px;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+        .heroBox {
+            top: 100%;
+        }
+        
+    }

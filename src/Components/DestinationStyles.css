@@ -1,0 +1,87 @@
+.destination {
+    width: 100%;
+    text-align: center;
+    margin-top: 220px;
+}
+.destination h1 {
+    font-size: 2.3rem;
+    margin-top: 70px;
+    color: #00c2c5;
+}
+.destination p {
+    font-size: 1.1rem;
+    color: #fff;
+}
+.des-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin: 30px auto;
+}
+.des-col1 {
+    width: 250px;
+    height: 300px;
+    background-color: #0b1d27;
+    display: flex;
+    align-items: flex-end;
+    background-image: url('https://images.pexels.com/photos/9094948/pexels-photo-9094948.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+.des-col2 {
+    width: 250px;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    background-image: url('https://images.pexels.com/photos/12004888/pexels-photo-12004888.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+.des-col3 {
+    width: 250px;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    background-image: url('https://images.pexels.com/photos/10756695/pexels-photo-10756695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+.des-col4 {
+    width: 250px;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    background-image: url('https://images.pexels.com/photos/5096452/pexels-photo-5096452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+.des-colBox {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background-color: #0000009e;
+    color: white;
+    text-align: left;
+    padding-left: 18px;
+    overflow: hidden;
+}
+
+.des-colBox p {
+    display: flex;
+    margin: -14px 0px 0px -5px ;
+    font-size: 16px;
+}
+.des-colBox:hover {
+    width: 100%;
+    height: 300px;
+    transition: 0.3s ease-in-out;
+}
+@media screen and (max-width: 555px) {
+    .destination {
+        margin-top: 400px;
+    }
+}
+
+/* https://www.behance.net/gallery/115319459/Travel-Website?tracking_source=search_projects%7CTravel+Website */
